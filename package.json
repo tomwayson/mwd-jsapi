@@ -1,0 +1,32 @@
+{
+  "name": "mwd-jsapi",
+  "version": "1.0.0",
+  "description": "Dev Summit 2016 Workshop Slides for Modern Web Development with the ArcGIS API for JavaScript and Web AppBuilder",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt connect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomwayson/mwd-jsapi.git"
+  },
+  "keywords": [
+    "Esri",
+    "ArcGIS API for JavaScript",
+    "Web AppBuilder",
+    "DevSummit"
+  ],
+  "author": "Tom Wayson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomwayson/mwd-jsapi/issues"
+  },
+  "homepage": "https://github.com/tomwayson/mwd-jsapi/",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-connect": "^0.2.0",
+    "grunt-gh-pages": "^1.0.0"
+  },
+  "dependencies": {}
+}
