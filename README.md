@@ -1,10 +1,8 @@
-# ArcGIS API for JavaScript and AngularJS: What's Next
+# Modern Web Development with the ArcGIS API for JavaScript and Web AppBuilder
 
-The next major releases of AngularJS and the ArcGIS API for JavaScript (4.0) will introduce exciting new capabilities as well as significant changes. In this session, we’ll explore the development of next generation web mapping applications using the latest and greatest from each of these frameworks.
+Slides from a talk given at the DevSummit 2016 Modern Web Development Workshop.
 
-## Links
-- Schedule: [Thursday, 10 March 2016 at 5:30pm, in Mesquite B](https://devsummit.schedule.esri.com/#schedule/56b2874e4be5dd46a3000302/56b2874e4be5dd46a3000303)
-- Slides: http://jwasilgeo.github.io/esri-jsapi-and-angular-whats-next-dev-summit-2016/
+- Slides: http://tomwayson.github.io/mwd-jsapi/#/
 
 ## Running the Slides
 
