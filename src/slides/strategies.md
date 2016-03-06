@@ -50,7 +50,7 @@ David Bouwman [Thu @ 1:00PM](https://devsummit.schedule.esri.com/#schedule/56b4e
 
 <table class="logos">
 	<tr>
-		<td colspan="2"><img src="img/moment-js.jpg" class="transparent" width="100" /></td>
+		<td colspan="2"><img src="img/Logo_D3.svg.png" class="transparent" width="100" /></td>
 		<td colspan="2"><img src="img/icon-bootstrap.png" class="transparent" height="100" /></td>
 	</tr>
 	<tr>

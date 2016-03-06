@@ -17,12 +17,8 @@
 
 ---
 
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-## Designed for challenges of a different era
-
-<p class="ie6-logo">
-	<img src="img/internet_explorer_logo_6.png" class="transparent" />
-</p>
+<!-- .slide: data-background-color="#fff" data-background="img/internet_explorer_logo_6.png" data-background-size="700px" -->
+#### Designed for challenges of a different era
 
 ---
 
@@ -58,18 +54,25 @@
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+## Recommendations 
+
+---
+
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## DO use component architecture 
 
-Create own widgets using base classes and mixins
-- `dijit/_WidgetBase`
-- `dijit/_TemplatedMixin`
+[Create your own widgets](https://developers.arcgis.com/javascript/jshelp/intro_custom_dijit.html) using base classes and mixins
+- <i class="fa fa-thumbs-up"></i> `dijit/_WidgetBase`
+- <i class="fa fa-thumbs-up"></i> `dijit/_TemplatedMixin`
+
+See the [Understanding _WidgetBase](http://dojotoolkit.org/documentation/tutorials/1.10/understanding_widgetbase/) and [Creating Template-based Widgets](http://dojotoolkit.org/documentation/tutorials/1.10/templated/) tutorials.
 
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## <span style="color: red">DON'T</span> use built-in UI components
-- `dijit/form/...`
-- `dijit/layout/...`
+- <i class="fa fa-thumbs-down"></i> `dijit/form/...`
+- <i class="fa fa-thumbs-down"></i> `dijit/layout/...`
 
 ---
 
@@ -77,3 +80,5 @@ Create own widgets using base classes and mixins
 ## Instead, pair with a more modern UI library
 
 <img src="img/icon-bootstrap.png" height="400" class="transparent" />
+
+Perhaps just the mark up and CSS?
