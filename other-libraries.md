@@ -41,7 +41,7 @@
 	</tr>
 </table>
 
-... may include redundant functionality
+... redundant & heavy page weight
 
 ---
 
@@ -60,27 +60,6 @@
 
 ---
 
-<!-- .slide: data-background="img/assembly-line-2994043188_4e9ccbcb3f_z.jpg" -->
-#### MUST use Dojo's build tool to optimize
-
----
-
-<!-- .slide: data-background="img/tesla-6858583426_1f003ea519_z.jpg" -->
-#### Add Grunt and Babel for more modern workflow
-
----
-
-<!-- .slide: data-background="img/tesla-6858583426_1f003ea519_z.jpg" -->
-#### Grunt for linting, CSS preprocessors, dev server 
-
-
----
-
-<!-- .slide: data-background="img/tesla-6858583426_1f003ea519_z.jpg" -->
-#### Babel transpiles ES2015 modules to AMD (pre build) 
-
----
-
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Recommendations 
 
@@ -90,24 +69,13 @@
 ## Use Dojo's AMD loader to load:
 - <i class="fa fa-check-square-o"></i> Your own AMD modules
 - <i class="fa fa-check-square-o"></i> 3rd Party UMD and AMD modules
-- <i class="fa fa-check-square-o"></i> Esri/Dojo modules from CDN or bower build
+- <i class="fa fa-check-square-o"></i> Esri/Dojo modules
 
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Be selective about the libraries you add
 - <i class="fa fa-info-circle"></i> Check if Dojo already did that (it's already on the page)
-- <i class="fa fa-thumbs-up"></i> Use to cover functional gaps (like mobile-first UI components)
+- <i class="fa fa-thumbs-up"></i> Use for functional gaps (like mobile-first UI components)
 - <i class="fa fa-question-circle"></i> Decide if it's worth any gains in developer productivity
 - <i class="fa fa-thumbs-down"></i> Don't add libraries just because they're trendy
-
----
-
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-## Optimize (buid) apps with large code bases 
-- <i class="fa fa-thumbs-up"></i> Use Dojo build with the [Bower release of the JSAPI](https://github.com/Esri/jsapi-resources/tree/master/bower)
-- <i class="fa fa-hand-o-right"></i> Pro-tip: use [`layerOptimize: 'uglify'`](https://dojotoolkit.org/reference-guide/1.10/build/transforms/writeOptimized.html#id4) with 3rd party libs <br />(closure defaults to ES3, throws compile errors on ES5 code)
-- <i class="fa fa-thumbs-up"></i> Use [grunt-dojo](https://www.npmjs.com/package/grunt-dojo) to include build step in grunt pipeline
-- <i class="fa fa-thumbs-up"></i> Use Babel to transpile ES2015 to ES5 AMD before building
-  - Use the [transform-es2015-modules-amd  plugin](https://babeljs.io/docs/plugins/transform-es2015-modules-amd/)
-  - Or [babel-plugin-transform-es2015-modules-simple-amd](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-simple-amd) <br />for code that will run in other Dojo apps
