@@ -13,4 +13,4 @@
 ---
 
 <!-- .slide: data-background="img/shrug-2799746255_436723e65c_z.jpg" -->
-#### Not enough opinions to keep you on the happy path
+#### Not enough opinions
