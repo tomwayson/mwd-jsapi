@@ -33,7 +33,7 @@
         border: 0px;
       }
 
-      /* overlay text */
+      /* overlay header */
       .reveal h4 {
           background: rgba(0,0,0,.5);
           color:  #fff;
@@ -47,6 +47,27 @@
           font-size: 2em;
           line-height: 2.1em;
       }
+
+      /* overlay content */
+      .reveal .slim-shady {
+          background: rgba(0,0,0,0.5);
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 1em;
+          padding-bottom: 1em;
+      }
+
+      /* images w/ transparencies */
+      .reveal img.transparent {
+        background: none;
+        box-shadow: none;
+      }
+
+      .reveal table.logos td {
+        border-bottom: 0;
+        vertical-align: middle;
+        text-align: center;      }
     </style>
 
     <!-- Printing and PDF exports -->
@@ -83,7 +104,8 @@
         <section data-markdown="intro.md" data-background="reveal.js/img/title.png" ></section>
                 
         <!-- PART 1: JSAPI  -->
-        <section data-markdown="dojo-challenges.md" data-background="reveal.js/img/bg-1.png"></section>
+        <section data-markdown="strategies.md" data-background="reveal.js/img/bg-4.png"></section>
+        <section data-markdown="dojo-challenges.md" data-background="reveal.js/img/bg-4.png"></section>
 
         <!-- PART 2: Web AppBuilder  -->
         
