@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Modern Web Development with the ArcGIS API for JavaScript and Web AppBuilder</title>
+
+
+    <meta name="description" content="Esri 2016 Dev Summit 2016 Modern Web Development Workshop">
+    <meta name="author" content="Tom Wayson">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/esri-dev-summit-2016.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js/css/hljs/color-brewer.css">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Custom Styles for our presentation -->
+    <style>
+      #arcgis-api-for-javascript-and-angularjs- {
+        margin-top: 200px;
+      }
+      .reveal section img {
+        border: 0px;
+      }
+      .reveal ul {
+        list-style-type: none;
+      }
+
+      /* overlay header */
+      .reveal h4 {
+          background: rgba(0,0,0,.5);
+          color:  #fff;
+          position: fixed;
+          width: calc(100% + 150px);
+          left: 0;
+          top: 280px;
+          margin-left: -75px;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 2em;
+          line-height: 2.1em;
+      }
+
+      /* overlay content */
+      .reveal .slim-shady {
+          background: rgba(0,0,0,0.5);
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 1em;
+          padding-bottom: 1em;
+      }
+
+      /* images w/ transparencies */
+      .reveal img.transparent {
+        background: none;
+        box-shadow: none;
+      }
+
+      .reveal table.logos td {
+        border-bottom: 0;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      .reveal .ie6-logo {
+        background-color: #fff;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+      }
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var createLink = function(url) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = url;
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+          if (window.location.search.match( /print-pdf/gi )) {
+            createLink('reveal.js/css/print/pdf.css');
+            createLink('./template/pdf.css');
+          }
+          else {
+            createLink('reveal.js/css/print/paper.css');
+          }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- The backgrounds on each of these "sections" is the default background for that section -
+      you can override it on a slide by slide basis from within the MD. -->
+      <!-- note for vertical stacks,  data-separator="^----$" data-separator-vertical="^---$" -->
+      <div class="slides">
+        <section data-markdown="intro.md" data-background="reveal.js/img/title.png" ></section>
+                
+        <!-- PART 1: JSAPI  -->
+        <section data-markdown="strategies.md" data-background="reveal.js/img/bg-4.png"></section>
+        <section data-markdown="dojo-challenges.md" data-background="reveal.js/img/bg-4.png"></section>
+        <section data-markdown="dijit.md" data-background="reveal.js/img/bg-4.png"></section>
+        <section data-markdown="amd-loader.md" data-background="reveal.js/img/bg-4.png"></section>
+
+        <!-- PART 2: Web AppBuilder  -->
+        
+        <!-- FIN -->
+        <section data-markdown="thank-you.md" data-background="reveal.js/img/bg-3.png" ></section>
+        <section data-markdown="end.md" data-background="reveal.js/img/end.png" ></section>
+      </div>
+    </div>
+
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+                // when the presentation is scaled to fit different resolutions. Can be
+                // specified using percentage units.
+                width: 1366,
+                height: 768,
+
+                // Factor of the display size that should remain empty around the content
+                margin: 0.1,
+
+                // Bounds for smallest/largest possible scale to apply to content
+                minScale: 0.2,
+                maxScale: 1.5,
+
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
