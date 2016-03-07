@@ -28,7 +28,12 @@
 ---
 
 <!-- .slide: data-background-color="#fff" data-background="img/bower-logo.png" data-background-size="512px" -->
-#### Get local Esri modules from [JSAPI Bower release](https://github.com/Esri/jsapi-resources/tree/master/bower)
+#### Get local Esri modules from [JSAPI Bower release](https://developers.arcgis.com/javascript/jshelp/inside_bower_custom_builds.html)
+
+---
+
+<!-- .slide: data-background-color="#fff" data-background="img/bower-logo.png" data-background-size="512px" -->
+#### > `bower install arcgis-js-api`
 
 ---
 
@@ -52,6 +57,31 @@
 
 ---
 
+<!-- .slide: data-background="img/scantron-7674804806_7bd5ff8688_z.jpg" -->
+#### Testing your code
+
+---
+
+<!-- .slide: data-background="img/intern.png" data-background-color="#fff" data-background-size="236px" -->
+#### Dojo's own testing library: [the Intern](https://theintern.github.io/)
+
+---
+
+<!-- .slide: data-background="img/karma-logo.png" data-background-color="#fff" data-background-size="730px" -->
+#### If you need to fine tune the knobs: [Karma](https://karma-runner.github.io)
+
+---
+
+<!-- .slide: data-background="img/karma-logo.png" data-background-color="#fff" data-background-size="730px" -->
+#### Checkout [yo karma-esri](https://www.npmjs.com/package/generator-karma-esri)
+
+---
+
+<!-- .slide: data-background="img/scantron-7674804806_7bd5ff8688_z.jpg" -->
+#### See our talk from [DevSummit 2015](https://github.com/tomwayson/esri-js-testing-tools-and-patterns)
+
+---
+
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Recommendations 
 
@@ -66,7 +96,7 @@
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Optimize (build) apps with large code bases 
-- <i class="fa fa-thumbs-up"></i> Use [Dojo build](https://dojotoolkit.org/reference-guide/1.10/build/) with the [Bower release of the JSAPI](https://github.com/Esri/jsapi-resources/tree/master/bower)
+- <i class="fa fa-thumbs-up"></i> Use [Dojo build](https://dojotoolkit.org/reference-guide/1.10/build/) with the [Bower release of the JSAPI](https://developers.arcgis.com/javascript/jshelp/inside_bower_custom_builds.html)
 - <i class="fa fa-hand-o-right"></i> Pro-tip: use [`layerOptimize: 'uglify'`](https://dojotoolkit.org/reference-guide/1.10/build/transforms/writeOptimized.html#id4) with 3rd party libs <br />(closure defaults to ES3, throws compile errors on ES5 code)
 - <i class="fa fa-thumbs-up"></i> Use [grunt-dojo](https://www.npmjs.com/package/grunt-dojo) to include build step in grunt pipeline
 
@@ -109,3 +139,10 @@ Using TypeScript with ArcGIS JS API Development [Thu @ 5:30PM](https://devsummit
 
 <small>Rene Rubalcava, Dasa Paddock</small>
 
+Full Stack End to End JavaScript Testing with Intern [Thu 4:00PM](https://devsummit.schedule.esri.com/#schedule/56b3ca044be5dd8f34014154/56b4e9874be5dd8f3401ccf6)
+
+<small>Dylan Schiemann</small>
+
+Javascript Applications for the Enterprise: Test More, Work Less [Fri @ 1:00PM](https://devsummit.schedule.esri.com/#schedule/56b2875a4be5dd46a3000356/56b3da974be5dd8f34014544)
+
+<small>George Bochenek, Randy Jones</small>
