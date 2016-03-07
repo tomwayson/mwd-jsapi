@@ -2,12 +2,12 @@
 
 ---
 
-<!-- .slide: data-background-color="#fff" data-background="img/babel.png" data-background-size="744px" -->
+<!-- .slide: data-background="img/babel.png" data-background-size="744px" -->
 #### Babel: ES2015 modules => AMD (livereload &amp; build) 
 
 ---
 
-<!-- .slide: data-background-color="#fff" data-background="img/babel.png" data-background-size="744px" -->
+<!-- .slide: data-background="img/babel.png" data-background-size="744px" -->
 #### Use the [transform-es2015-modules-amd](https://babeljs.io/docs/plugins/transform-es2015-modules-amd/) plugin
 
 ---

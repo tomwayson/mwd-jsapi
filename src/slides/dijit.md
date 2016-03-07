@@ -53,6 +53,31 @@
 
 ---
 
+<!-- .slide: data-background="img/calcite-theme.png" -->
+#### For Esri UI components, try new [calcite theme](https://blogs.esri.com/esri/arcgis/2016/03/04/arcgis-api-for-javascript-version-3-16-released/)
+
+---
+
+<!-- .slide: data-background="img/icon-bootstrap.png" data-background-size="650px" -->
+#### For rest of app, use a modern UI framework
+
+---
+
+<!-- .slide: data-background="img/icon-bootstrap.png" data-background-size="650px" -->
+#### Maybe just markup and CSS
+
+---
+
+<!-- .slide: data-background="img/calcite-bootstrap.png" -->
+#### Optionally Use [calcite-bootstrap](http://esri.github.io/calcite-bootstrap/) theme
+
+---
+
+<!-- .slide: data-background="img/calcite-maps.png" -->
+#### For map-centric apps layout checkout [calcite maps](http://esri.github.io/calcite-maps/index.html)
+
+---
+
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Recommendations 
 
