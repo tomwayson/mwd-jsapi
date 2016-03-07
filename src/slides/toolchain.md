@@ -13,7 +13,7 @@
 ---
 
 <!-- .slide: data-background="img/assembly-line-2994043188_4e9ccbcb3f_z.jpg" -->
-#### MUST use Dojo's build tool to optimize (no WebPack)
+#### Must use [Dojo's build](https://dojotoolkit.org/reference-guide/1.10/build/) tool to optimize (no WebPack)
 
 ---
 
