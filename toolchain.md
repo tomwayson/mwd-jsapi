@@ -28,7 +28,12 @@
 ---
 
 <!-- .slide: data-background-color="#fff" data-background="img/bower-logo.png" data-background-size="512px" -->
-#### Get local Esri modules from [JSAPI Bower release](https://github.com/Esri/jsapi-resources/tree/master/bower)
+#### Get local Esri modules from [JSAPI Bower release](https://developers.arcgis.com/javascript/jshelp/inside_bower_custom_builds.html)
+
+---
+
+<!-- .slide: data-background-color="#fff" data-background="img/bower-logo.png" data-background-size="512px" -->
+#### > `bower install arcgis-js-api`
 
 ---
 
@@ -66,7 +71,7 @@
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Optimize (build) apps with large code bases 
-- <i class="fa fa-thumbs-up"></i> Use [Dojo build](https://dojotoolkit.org/reference-guide/1.10/build/) with the [Bower release of the JSAPI](https://github.com/Esri/jsapi-resources/tree/master/bower)
+- <i class="fa fa-thumbs-up"></i> Use [Dojo build](https://dojotoolkit.org/reference-guide/1.10/build/) with the [Bower release of the JSAPI](https://developers.arcgis.com/javascript/jshelp/inside_bower_custom_builds.html)
 - <i class="fa fa-hand-o-right"></i> Pro-tip: use [`layerOptimize: 'uglify'`](https://dojotoolkit.org/reference-guide/1.10/build/transforms/writeOptimized.html#id4) with 3rd party libs <br />(closure defaults to ES3, throws compile errors on ES5 code)
 - <i class="fa fa-thumbs-up"></i> Use [grunt-dojo](https://www.npmjs.com/package/grunt-dojo) to include build step in grunt pipeline
 

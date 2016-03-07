@@ -28,7 +28,7 @@
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-1.png" -->
-## You *can* do this, but...
+## You can do this, but...
 
 <table class="logos">
 	<tr>
@@ -62,6 +62,17 @@
 
 <!-- .slide: data-background="img/scales-7953227784_416ff3d16f_o.jpg" -->
 #### Page wieght vs. developer productivity <i class="fa fa-question-circle"></i>
+
+---
+
+<!-- .slide: data-background="img/dojo-config-packages.png" -->
+#### Configure Dojo [loader packages](https://dojotoolkit.org/documentation/tutorials/1.10/dojo_config/#loader-configuration)
+
+
+---
+
+<!-- .slide: data-background="img/dojo-config-packages.png" -->
+#### Specify `main` other than 'index.js'
 
 ---
 
