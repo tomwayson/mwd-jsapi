@@ -35,6 +35,10 @@
 <!-- .slide: data-background-color="#fff" data-background="img/grunt-logo.png" data-background-size="512px" -->
 #### Use [grunt-dojo](https://www.npmjs.com/package/grunt-dojo) to include in your build pipeline
 
+---
+
+<!-- .slide: data-background-color="#fff" data-background="img/gulp-grunt.png" data-background-size="273px" -->
+#### Use [gulp-grunt](https://www.npmjs.com/package/gulp-grunt) to include in gulp pipeline
 
 ---
 
@@ -88,4 +92,20 @@ Automating Builds for Enterprise JavaScript Applications [Thu @ 2:30PM](https://
 Optimizing Your JavaScript App for Performance [Thu @ 2:30PM](https://devsummit.schedule.esri.com/#schedule/56b287444be5dd46a30002b7/56b287444be5dd46a30002b8)
 
 <small>Lloyd Heberlie, Rene Rubalcava</small>
+
+---
+
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+## More Related Talks
+<div>
+<img src="img/TypeScript_Logo.png" class="transparent" width="220" />
+</div>
+
+Using Modern ES6 and TypeScript Features on Top of Dojo 1.x [Wed @ 4:00PM](https://devsummit.schedule.esri.com/#schedule/56b3c9904be5dd6b69003dd3/56b3cd784be5dd8f340141a5)
+
+<small>Dylan Schiemann</small>
+
+Using TypeScript with ArcGIS JS API Development [Thu @ 5:30PM](https://devsummit.schedule.esri.com/#schedule/56b2874f4be5dd46a3000310/56b287504be5dd46a3000311)
+
+<small>Rene Rubalcava, Dasa Paddock</small>
 

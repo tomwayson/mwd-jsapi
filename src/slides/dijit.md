@@ -52,18 +52,17 @@
 
 ---
 
-<!-- .slide: data-background="img/phone-16981803257_4bcd3c45dc_z.jpg" -->
-
-<img src="img/2000px-ProhibitionSign2.svg.png" height="700" class="transparent" />
+<!-- .slide: data-background="img/no-phone-16981803257_4bcd3c45dc_z.png" -->
+#### Not mobile first
 
 ---
 
-<!-- .slide: data-background="img/phone-16981803257_4bcd3c45dc_z.jpg" -->
+<!-- .slide: data-background="img/no-phone-16981803257_4bcd3c45dc_z.png" -->
 #### Not responsive
 
 ---
 
-<!-- .slide: data-background="img/phone-16981803257_4bcd3c45dc_z.jpg" -->
+<!-- .slide: data-background="img/no-phone-16981803257_4bcd3c45dc_z.png" -->
 #### Not touch friendly
 
 ---

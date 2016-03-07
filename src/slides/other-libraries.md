@@ -2,6 +2,11 @@
 
 ---
 
+<!-- .slide: data-background="img/module-loading1.png" data-background-size="578px" data-background-color="#fff" -->
+#### Dojo uses Asynchronous Module Definition (AMD)
+
+---
+
 <!-- .slide: data-background="img/different-7519496646_2bef924538_z.jpg" -->
 #### Dojo implements AMD differently than others
 

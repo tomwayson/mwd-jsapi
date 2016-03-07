@@ -68,17 +68,23 @@
 ---
 
 <!-- .slide: data-background="img/scaffold-2520054449_b8d243d857_z.jpg" -->
-#### From a single widget: [yo esri-widget](https://github.com/tomwayson/generator-esri-widget)
+#### There is a generator for Dojo boilerplate, but...
 
 ---
 
 <!-- .slide: data-background="img/scaffold-2520054449_b8d243d857_z.jpg" -->
-#### To an entire app: [yo arcgis-js-app](https://github.com/odoe/generator-arcgis-js-app)
+#### Use  [yo arcgis-js-app](https://github.com/odoe/generator-arcgis-js-app)
 
 ---
 
 <!-- .slide: data-background="img/scaffold-2520054449_b8d243d857_z.jpg" -->
 #### Includes: [Bower](http://bower.io/), [Grunt](http://gruntjs.com/), [Babel](https://babeljs.io/), [ESLint](http://eslint.org/), [Stylus](http://stylus-lang.com/) ...
+
+---
+
+<!-- .slide: data-background="img/scaffold-2520054449_b8d243d857_z.jpg" -->
+#### To scaffold out a single widget: [yo esri-widget](https://github.com/tomwayson/generator-esri-widget)
+
 
 ---
 
