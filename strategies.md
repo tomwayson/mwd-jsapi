@@ -2,13 +2,33 @@
 
 ---
 
-<!-- .slide: data-background="img/angular-is-the-boss.jpg" -->
-#### 1) Use another framework and let it be the boss 
+<!-- .slide: data-background="img/ember-is-the-boss.jpg" -->
+#### 1) Use alongside an opinionated framework
 
 ---
 
 <!-- .slide: data-background="img/ember-is-the-boss.jpg" -->
-#### <i class="fa fa-thumbs-up"></i> For opinionated frameworks like Ember or Angular
+#### Other framework is in control of the app
+
+---
+
+<!-- .slide: data-background="img/angular-is-the-boss.jpg" -->
+#### Ignore Dojo, pretend like it's not there
+
+---
+
+<!-- .slide: data-background="img/angular-is-the-boss.jpg" -->
+#### Access Esri modules through a compatibility layer
+
+---
+
+<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
+### [Esri/ember-cli-amd](https://github.com/Esri/ember-cli-amd)
+<img src="img/emberjs-logo.png" class="transparent" height="300" width="300" />
+
+Frederic Aubry, Rene Rubalcava [Thu @ 10:30AM](https://devsummit.schedule.esri.com/#schedule/56b2874f4be5dd46a300030a/56b4efb04be5dd8f3401d218)
+
+David Bouwman [Thu @ 1:00PM](https://devsummit.schedule.esri.com/#schedule/56b4eac04be5dd8f3401cf16/56b4eaeb4be5dd8f3401cfa0)
 
 ---
 
@@ -24,29 +44,41 @@ Angular 2 [Thu @ 5:30PM](https://devsummit.schedule.esri.com/#schedule/56b2874e4
 
 ---
 
-<!-- .slide: data-background="reveal.js/img/bg-3.png" -->
-### [Esri/ember-cli-amd](https://github.com/Esri/ember-cli-amd)
-<img src="img/emberjs-logo.png" class="transparent" height="300" width="300" />
-
-Frederic Aubry, Rene Rubalcava [Thu @ 10:30AM](https://devsummit.schedule.esri.com/#schedule/56b2874f4be5dd46a300030a/56b4efb04be5dd8f3401d218)
-
-David Bouwman [Thu @ 1:00PM](https://devsummit.schedule.esri.com/#schedule/56b4eac04be5dd8f3401cf16/56b4eaeb4be5dd8f3401cfa0)
+<!-- .slide: data-background="img/vader-15455219752_9d15050462_z.jpg" -->
+#### 2) Build a Dojo app
 
 ---
 
 <!-- .slide: data-background="img/vader-15455219752_9d15050462_z.jpg" -->
-#### 2) Build a Dojo app, let Dojo be the boss
+#### Dojo is in control of the app
 
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-1.png" -->
-## Can be pure Dojo
-<img src="img/dojo-blue-circle.png" class="transparent dojo-logo" />
+## Can be just Dojo + Esri
+<div>
+<img src="img/dojo-blue-circle.png" class="transparent dojo-logo" width="300" />
+<img src="img/esri.png" class="transparent dojo-logo" width="320" />
+</div>
+
+---
+
+<!-- .slide: data-background="img/calcite-theme.png" -->
+#### Works for full-screen, map centric apps
+
+---
+
+<!-- .slide: data-background="img/calcite-theme.png" -->
+#### Once you start adding UI elements...
+
+---
+
+<!-- .slide: data-background="img/Bayer.png" data-background-size="1040px" -->
 
 ---
 
 <!-- .slide: data-background="reveal.js/img/bg-1.png" -->
-## Or include your favorite JS libs
+## May want to include some of your favorite JS libs
 
 <table class="logos">
 	<tr>

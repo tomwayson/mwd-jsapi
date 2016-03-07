@@ -1,7 +1,3 @@
-## Dojo Challenges
-
----
-
 <!-- .slide: data-background="img/antiques-9433981937_fb6e6c4b71_z.jpg" -->
 #### UI framework (Dijit) is not modern
 
