@@ -63,8 +63,22 @@ Angular 2 [Thu @ 5:30PM](https://devsummit.schedule.esri.com/#schedule/56b2874e4
 
 ---
 
+<!-- .slide: data-background="img/calcite-theme.png" -->
+#### Works for full-screen, map centric apps
+
+---
+
+<!-- .slide: data-background="img/calcite-theme.png" -->
+#### Once you start adding UI elements...
+
+---
+
+<!-- .slide: data-background="img/Bayer.png" data-background-size="1040px" -->
+
+---
+
 <!-- .slide: data-background="reveal.js/img/bg-1.png" -->
-## Or include your favorite JS libs
+## May want to include some of your favorite JS libs
 
 <table class="logos">
 	<tr>

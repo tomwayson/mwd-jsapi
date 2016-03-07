@@ -17,6 +17,21 @@
 
 ---
 
+<!-- .slide: data-background="img/app-components.png" -->
+#### Modern apps are organized as a tree of components
+
+---
+
+<!-- .slide: data-background="img/lego-jeep.jpg" -->
+#### Use [dijit/_WidgetBase](http://dojotoolkit.org/documentation/tutorials/1.10/understanding_widgetbase/) & [dijit/_TemplatedMixin](http://dojotoolkit.org/documentation/tutorials/1.10/templated/)
+
+---
+
+<!-- .slide: data-background="img/claro-theme.png" -->
+#### <i class="fa fa-exclamation-triangle"></i> Avoid dijits built-in layout and form widgets
+
+---
+
 <!-- .slide: data-background-color="#fff" data-background="img/internet_explorer_logo_6.png" data-background-size="700px" -->
 #### Designed for challenges of a different era
 
@@ -87,10 +102,8 @@
 ## DO use component architecture 
 
 [Create your own widgets](https://developers.arcgis.com/javascript/jshelp/intro_custom_dijit.html) using base classes and mixins
-- <i class="fa fa-thumbs-up"></i> `dijit/_WidgetBase`
-- <i class="fa fa-thumbs-up"></i> `dijit/_TemplatedMixin`
-
-See the [Understanding _WidgetBase](http://dojotoolkit.org/documentation/tutorials/1.10/understanding_widgetbase/) and [Creating Template-based Widgets](http://dojotoolkit.org/documentation/tutorials/1.10/templated/) tutorials.
+- <i class="fa fa-thumbs-up"></i> [`dijit/_WidgetBase`](http://dojotoolkit.org/documentation/tutorials/1.10/understanding_widgetbase/)
+- <i class="fa fa-thumbs-up"></i> [`dijit/_TemplatedMixin`](http://dojotoolkit.org/documentation/tutorials/1.10/templated/)
 
 ---
 
@@ -103,7 +116,6 @@ See the [Understanding _WidgetBase](http://dojotoolkit.org/documentation/tutoria
 
 <!-- .slide: data-background="reveal.js/img/bg-3.png" -->
 ## Instead, pair with a more modern UI library
-
-<img src="img/icon-bootstrap.png" height="400" class="transparent" />
-
-Perhaps just the mark up and CSS?
+- <i class="fa fa-thumbs-up"></i> We use [Bootstrap](http://getbootstrap.com/)
+- <i class="fa fa-thumbs-up"></i> Consider Esri's [calcite theme](https://blogs.esri.com/esri/arcgis/2016/03/04/arcgis-api-for-javascript-version-3-16-released/) and [calcite-bootstrap](http://esri.github.io/calcite-bootstrap/)
+- <i class="fa fa-thumbs-up"></i> For map-centric apps layout checkout [calcite maps](http://esri.github.io/calcite-maps/index.html)

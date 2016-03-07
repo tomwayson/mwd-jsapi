@@ -2,13 +2,13 @@
 
 ---
 
-<!-- .slide: data-background="img/dojo-blue-circle.png" data-background-size="400px" -->
+<!-- .slide: data-background="img/different-7519496646_2bef924538_z.jpg" -->
 #### Modern web development is different with Dojo
 
 ---
 
 <!-- .slide: data-background="img/one-stop-shop-14495298147_ddd09c7061_z.jpg" -->
-#### Dojo is your front-end one-stop-shop
+#### The one-stop shop for all your front-end needs
 
 ---
 
